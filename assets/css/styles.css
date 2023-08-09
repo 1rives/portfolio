@@ -1,0 +1,11 @@
+/* Broken responsiveness on mobile fix */
+
+body,html {
+    overflow-x: hidden;
+}
+
+/* Reduces the excesive padding of the default footer */
+
+.footer {
+    padding-bottom: 1.7%;
+}
