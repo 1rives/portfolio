@@ -1,3 +1,5 @@
+
+
 /* Broken responsiveness on mobile fix */
 
 body,html {
@@ -8,4 +10,52 @@ body,html {
 
 .footer {
     padding-bottom: 1.7%;
+}
+
+.navbar-image {
+    background-color: transparent;
+    background-image: none;
+   /* box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.059);
+    -webkit-box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.125);
+    -moz-box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.13); */
+} 
+
+.dark-theme {
+    color: var(--color-shade-four);
+    background-color: var(--color-shade-one);
+} 
+
+.dark-theme-secondary {
+    color: var(--color-shade-four);
+    background-color: var(--color-shade-two);
+} 
+
+/* Custom class to center all navbar items */
+
+.navbar-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Color theme */
+
+.background-color {
+    background-color: var(--color-shade-one) !important;
+}
+  
+.background-color-sec {
+    background-color: var(--color-shade-two) !important;
+}
+
+.text-color {
+    color: var(--color-shade-three) !important;
+}
+
+.hero-image {
+    background: url(), url(../img/ooorganize.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center;
+    background-size: 50%, 100%;
+
+
 }

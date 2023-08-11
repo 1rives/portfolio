@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="assets/css/colors.css">
     <link rel="stylesheet" href="assets/css/bulma.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <title>Gonzalo Rives</title>
@@ -11,65 +12,81 @@
 <body>
   
   <!-- Start Navbar -->
-  <nav class="navbar is-info">
-
-    <div class="container">
-      <div class="navbar-brand">
-
-        <a class="navbar-item" href="#hero">
-          <strong class="is-size-4">GONZALO RIVES</strong>
-        </a>
-        <div class="navbar-burger" data-target="navbarItems">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-
-      </div>
   
-      <div id="navbarItems" class="navbar-menu">
-        <div class="navbar-end">
-          <a class="navbar-item" href="#hero">
-            Home
-          </a>
-          <a class="navbar-item" href="#about-me">
-            About me
-          </a>
-          <a class="navbar-item" href="#skills">
-            Skills
-          </a>
-          <a class="navbar-item" href="#contact">
-            Contact
-          </a>
-        </div>
-      </div>
-    </div>
-
-  </nav>
   <!-- End Hero Section -->
 
   <!-- Start Hero Section -->
-  <section class="hero is-light is-fullheight-with-navbar">
-    <div class="hero-body">
-      <h1 class="title">Hero presentation</h1>
+  <section class="hero is-fullheight is-dark background-color hero-image">
+    <div class="hero-head">
+
+      <!-- Hero navbar: will stick at the top -->
+      <nav class="navbar">
+        <div class="container">
+
+          <div class="navbar-brand">
+            <a class="navbar-item">
+              <span class="is-size-3">R</span>
+            </a>
+            <span class="navbar-burger" data-target="navbarMenuHeroA">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </div>
+
+          <div id="navbarMenuHeroA" class="navbar-menu">
+            <div class="navbar-end">
+              <a class="navbar-item" href="#hero">
+                Home
+              </a>
+              <a class="navbar-item" href="#about-me">
+                About me
+              </a>
+              <a class="navbar-item" href="#skills">
+                Skills
+              </a>
+              <a class="navbar-item" href="#contact">
+                Contact
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </nav>
+      <!-- Hero navbar: will stick at the top -->
     </div>
+
+    <!-- Hero content: will be in the middle -->
+    <h1 class="title navbar-center is-size-1 ">GONZALO RIVES</h1>
+
+    <!-- Hero footer: will stick at the bottom -->
+    <div class="hero-foot">
+      <nav class="tabs">
+        <div class="container navbar-center">
+          <ul>
+            <li class="is-active"><a></a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
   </section>
   <!-- End Hero Section -->
 
   <!-- Start About me Section -->
-  <section class="section is-large has-background-info has-text-white-vis">
-    <h1 class="title">About me</h1>
-    <h2 class="subtitle">
-      A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading.
+  <section class="section is-large background-color-sec">
+    <h1 class="title text-color">About me</h1>
+    <h2 class="subtitle text-color">
+      A simple container to divide your page into sections, like the one you're currently reading.
     </h2>
   </section>
   <!-- End About me Section -->
 
   <!-- Start Skills Section -->
-  <section class="section is-large has-background-white">
-    <h1 class="title">Skills</h1>
-    <h2 class="subtitle">
-      A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading.
+  <section class="section is-large is-dark background-color">
+    <h1 class="title text-color">Skills</h1>
+    <h2 class="subtitle text-color">
+      A simple container to divide your page into sections, like the one you're currently reading.
     </h2>
   </section>
   <!-- End Skills Section -->
