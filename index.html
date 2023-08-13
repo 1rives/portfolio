@@ -13,50 +13,39 @@
   
   <!-- Start Navbar -->
   
-  <!-- End Hero Section -->
+  <header>
+    <nav class="navbar is-dark is-fixed-top" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="index.html">
+          LOGO HERE?
+        </a>
+    
+        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navigation">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+    
+      <div id="navigation" class="navbar-menu">
+        <div class="navbar-end">
+          <a href="#hero" class="navbar-item">HOME</a>
+          <a href="#about-me" class="navbar-item">ABOUT</a>
+          <a href="#skills" class="navbar-item">SKILLS</a>
+          <a href="#contact" class="navbar-item">CONTACT</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- End Navbar -->
 
   <!-- Start Hero Section -->
   <section id="hero" class="hero is-fullheight is-dark background-color hero-image">
-    <div class="hero-head">
-
-      <!-- Hero navbar: will stick at the top -->
-      <nav class="navbar">
-        <div class="container">
-
-          <div class="navbar-brand">
-            <span class="navbar-burger" role="button" data-target="navbarMenu" aria-label="menu" aria-expanded="false">
-              <span aria-hidden="true"></span>
-              <span aria-hidden="true"></span>
-              <span aria-hidden="true"></span>
-          </div>
-
-          <div id="navbarMenu" class="navbar-menu">
-            <div class="navbar navbar-center">
-              <a class="navbar-item" href="#hero">
-                HOME
-              </a>
-              <a class="navbar-item" href="#about-me">
-                ABOUT ME
-              </a>
-              <a class="navbar-item" href="#skills">
-                SKILLS
-              </a>
-              <a class="navbar-item" href="#contact">
-                CONTACT
-              </a>
-            </div>
-          </div>
-
-        </div>
-      </nav>
-    </div>
-      <!-- Hero navbar: will stick at the top -->
     
-
     <!-- Hero content: will be in the middle -->
-    <div>
-      <h2 class="title is-size-1 is-size-2-mobile" id="title-hero">Gonzalo Rives</h2>
-      <h3 class="subtitle is-size-3 is-size-4-mobile" id="subtitle-hero">fullstack developer</h3>
+    <div class="title-container">
+      <h2 class="title is-size-3-mobile" id="title-hero">Gonzalo Rives</h2>
+      <h3 class="subtitle is-size-3-mobile" id="subtitle-hero">fullstack developer</h3>
     </div>
 
     <!-- Hero footer: will stick at the bottom -->
@@ -104,6 +93,7 @@
   </footer>
   <!-- End Footer -->
 
+  <script src="assets/js/jquery/jquery-3.7.0.min.js"></script>
   <script src="assets/js/functions.js"></script>
   <script src="assets/js/main.js"></script>
 </body>

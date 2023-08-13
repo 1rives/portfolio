@@ -1,4 +1,7 @@
 
+  /* General
+   * ========================================================================== */
+
 /* Broken responsiveness on mobile fix */
 body,html {
     overflow-x: hidden;
@@ -14,8 +17,12 @@ html {
     scroll-behavior: smooth;
 }
 
-#navbarMenu {
-   /* background-color: var(--color-shade); /* Background of mobile navbar  FIXXXXXXXX */
+  /* Classes
+   * ========================================================================== */
+
+.title-container {
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .navbar-image {
@@ -56,7 +63,8 @@ html {
     margin-right: auto; /* Center all navbar items */
 }
 
-/* Custom color theme */
+  /* Custom theme classes
+   * ========================================================================== */
 
 .background-color {
     background-color: var(--color-shade-one) !important;
@@ -91,7 +99,39 @@ html {
 }
 
 #subtitle-hero {
-    font-size: 3em;
+    font-size: 3.78em;
     font-weight: bold;
     color: var(--color-primary);
 }
+
+
+.navbar {
+    padding: 40px 130px; /* Bulma's navbar class override */
+    transition: 0.3s ease;
+    background: transparent !important; 
+  }
+
+  .navbar.nav-bg {
+    background-color: var(--color-shade) !important; /* Bulma's navbar class override */
+    padding: 15px 100px;
+  }
+
+  @media (max-width: 991px) {
+    .navbar.nav-bg {
+      padding: 15px 20px;
+      background:  var(--color-shade) !important; /* Bulma's navbar class override */
+    }
+  }
+
+  @media (max-width: 991px) {
+    .navbar {
+      padding: 20px;
+      background:  var(--color-shade) !important; /* Bulma's navbar class override */
+    }
+  }
+
+  @media (max-width: 1023px) {
+    .navbar-menu {
+      background:  var(--color-shade) !important;  /* Bulma's navbar class override */
+    }
+  }
