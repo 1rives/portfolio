@@ -1,24 +1,45 @@
 
-
 /* Broken responsiveness on mobile fix */
-
 body,html {
     overflow-x: hidden;
 }
 
 /* Reduces the excesive padding of the default footer */
-
 .footer {
     padding-bottom: 1.7%;
+    background-color: var(--color-shade);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#navbarMenu {
+   /* background-color: var(--color-shade); /* Background of mobile navbar  FIXXXXXXXX */
 }
 
 .navbar-image {
     background-color: transparent;
     background-image: none;
-   /* box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.059);
-    -webkit-box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.125);
-    -moz-box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.13); */
 } 
+
+.navbar-burger {
+    color: var(--color-shade-three); /* Button of mobile navbar */
+}
+
+.navbar-item {
+    margin: 0.1em;
+    color: var(--color-shade-three) !important;
+    transition: ease-in-out 0.3s;
+    background-color: transparent !important;
+}
+
+.navbar-item:hover,
+.navbar-item:active {
+    background-color: transparent !important;
+    color: var(--color-white) !important;
+    transition: ease-in-out 0.3s;
+}
 
 .dark-theme {
     color: var(--color-shade-four);
@@ -30,14 +51,12 @@ body,html {
     background-color: var(--color-shade-two);
 } 
 
-/* Custom class to center all navbar items */
-
 .navbar-center {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: auto; /* Center all navbar items */
+    margin-right: auto; /* Center all navbar items */
 }
 
-/* Color theme */
+/* Custom color theme */
 
 .background-color {
     background-color: var(--color-shade-one) !important;
@@ -48,14 +67,31 @@ body,html {
 }
 
 .text-color {
-    color: var(--color-shade-three) !important;
+    color: var(--color-white) !important;
 }
 
 .hero-image {
     background: url(), url(../img/ooorganize.svg);
     background-repeat: no-repeat, no-repeat;
     background-position: center, center;
-    background-size: 50%, 100%;
+    background-size: 50%, cover;
+}
 
+#title-hero,
+#subtitle-hero {
+    font-family: "Helvetica2";
+    line-height: 1em;
+    text-align: center;
+    letter-spacing: 1px;
+}
 
+#title-hero {
+    font-size: 5em;
+    color: var(--color-white);
+}
+
+#subtitle-hero {
+    font-size: 3em;
+    font-weight: bold;
+    color: var(--color-primary);
 }

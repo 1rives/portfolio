@@ -1,0 +1,20 @@
+/* Variables */
+
+:root {
+    /* Color palette: https://colorhunt.co/palette/27374d526d829db2bfdde6ed */
+    --color-shade: #191e25;
+    --color-shade-one: #222831;
+    --color-shade-two: #393E46;
+    --color-shade-three: #949ba9;
+    --color-white: #EEEEEE;
+    --color-primary: #D65A31;
+}
+
+/* Fonts */
+
+@font-face {
+    font-family: "Helvetica2";
+    font-size: 5rem;
+    src: url("../fonts/helvetica.ttf");
+
+}
