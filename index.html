@@ -12,12 +12,11 @@
 <body>
   
   <!-- Start Navbar -->
-  
   <header>
     <nav class="navbar is-dark is-fixed-top" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
-        <a class="navbar-item" href="index.html">
-          LOGO HERE?
+        <a class="navbar-item" href="#hero">
+           
         </a>
     
         <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navigation">
@@ -63,20 +62,163 @@
   <!-- End Hero Section -->
 
   <!-- Start About me Section -->
-  <section id="about-me" class="section is-large background-color-sec">
-    <h2 class="title text-color">About me</h2>
-    <h3 class="subtitle text-color">
-      A simple container to divide your page into sections, like the one you're currently reading.
-    </h3>
+  <section id="about-me" class="section is-adaptable background-color-sec is-hidden">
+    <h2 class="title text-color has-text-centered pb-5 pt-5" id="title-skills">About me<span class="text-color-primary">...</span></h2>
+
+    <p class="column is-offset-2 is-size-4 has-text-weight-light text-color pb-5">
+      <span class="is-size-3">Hola<span class="text-color-primary">!</span> Soy Gonzalo Rives, estudiante en sistemas.</span><br>
+      Proin eu urna pulvinar, dignissim magna ut, bibendum elit. <br>
+      Vestibulum aliquet purus lorem, nec accumsan velit pretium et. <br>
+      Maecenas eget augue sagittis, sollicitudin odio sed, finibus dolor. 
+    </p>
+
   </section>
   <!-- End About me Section -->
 
   <!-- Start Skills Section -->
-  <section id="skills" class="section is-large is-dark background-color">
-    <h2 class="title text-color">Skills</h2>
-    <h3 class="subtitle text-color">
-      A simple container to divide your page into sections, like the one you're currently reading.
-    </h3>
+  <section id="skills" class="section is-adaptable background-color-sec">
+      <h2 class="title text-color has-text-centered pb-5 pt-5" id="title-skills">Skills<span class="text-color-primary">.</span></h2>
+
+      <!-- Start Frontend Container -->
+      <div class="container is-max-widescreen pb-5">
+        <h3 class="title is-size-3 text-color has-text-centered has-text-weight-light pb-3 pt-5">Frontend</h2> 
+        <div class="columns box background-color">
+
+          <div class="column">
+            <a class="image is-128x128 is-unselectable"  
+            href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
+              <img src="assets/img/logo_html.png" alt="HTML" title="HTML">
+            </a>
+          </div>
+
+          <div class="column">
+            <a class="image is-128x128 is-unselectable"
+            href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
+              <img src="assets/img/logo_css.png" alt="CSS" title="CSS">
+            </a>
+          </div>
+
+          <div class="column">
+            <a class="image is-128x128 is-unselectable"
+            href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+              <img src="assets/img/logo_javascript.png" alt="Javascript" title="Javascript">
+            </a>
+          </div>
+
+          <div class="column">
+            <a class="image is-128x128 is-unselectable"
+            href="https://jquery.com/" target="_blank">
+              <img src="assets/img/logo_jquery.png" alt="jQuery" title="jQuery">
+            </a>
+          </div>
+
+          <div class="column">
+            <a class="image is-128x128 is-unselectable"
+            href="https://getbootstrap.com/" target="_blank">
+              <img src="assets/img/logo_bootstrap.png" alt="Bootstrap" title="Bootstrap">
+            </a>
+          </div>
+
+          <div class="column">
+            <a class="image is-128x128 is-unselectable"
+            href="https://bulma.io/" target="_blank">
+              <img src="assets/img/logo_bulma.png" alt="Bulma" title="Bulma">
+            </a>
+          </div>
+
+        </div>
+      </div>
+      <!-- End Frontend Container -->
+
+      <!-- Start Backend Container -->
+      <div class="container is-max-desktop pb-5">
+        <h3 class="title is-size-3 text-color has-text-centered has-text-weight-light pb-3 pt-5">Backend</h2>  
+        <div class="columns box background-color">
+         
+          <div class="column">
+            <a class="image is-128x128 is-unselectable"  
+            href="https://www.php.net/" target="_blank">
+              <img src="assets/img/logo_php.png" alt="PHP" title="PHP">
+            </a>
+          </div>
+
+          <div class="column">
+            <a class="image is-128x128 is-unselectable"
+            href="https://symfony.com/" target="_blank">
+              <img src="assets/img/logo_symfony.png" alt="Symfony" title="Symfony">
+            </a>
+          </div>
+
+          <div class="column">
+            <a class="image is-128x128 is-unselectable"
+            href="https://www.mysql.com/" target="_blank">
+              <img src="assets/img/logo_mysql.png" alt="MySQL" title="MySQL">
+            </a>
+          </div>
+
+          <div class="column">
+            <a class="image is-128x128 is-unselectable"
+            href="https://redis.io/" target="_blank">
+              <img src="assets/img/logo_redis.png" alt="Redis" title="Redis">
+            </a>
+          </div>
+
+        </div>
+      </div>
+      <!-- End Backend Container -->
+
+      <!-- Start Utils Container -->
+      <div class="container is-max-widescreen pb-5">
+        <h3 class="title is-size-3 text-color has-text-centered has-text-weight-light pb-3 pt-5">Utils</h2>  
+        <div class="columns box background-color">
+         
+          <div class="column">
+            <a class="image is-128x128 is-unselectable"  
+            href="https://www.docker.com/" target="_blank">
+              <img src="assets/img/logo_docker.png" alt="Docker" title="Docker">
+            </a>
+          </div>
+
+          <div class="column">
+            <a class="image is-128x128 is-unselectable"
+            href="https://git-scm.com/" target="_blank">
+              <img src="assets/img/logo_git.png" alt="Git" title="Git">
+            </a>
+          </div>
+
+          <div class="column">
+            <a class="image is-128x128 is-unselectable"
+            href="https://www.github.com/" target="_blank">
+              <img src="assets/img/logo_github.png" alt="Github" title="Github">
+            </a>
+          </div>
+
+          <div class="column">
+            <a class="image is-128x128 is-unselectable"
+            href="https://trello.com/" target="_blank">
+              <img src="assets/img/logo_trello.png" alt="Trello" title="Trello">
+            </a>
+          </div>
+
+          <div class="column">
+            <a class="image is-128x128 is-unselectable"
+            href="https://www.adobe.com/products/photoshop.html" target="_blank">
+              <img src="assets/img/logo_photoshop.png" alt="Photoshop" title="Photoshop">
+            </a>
+          </div>
+
+          <div class="column">
+            <a class="image is-128x128 is-unselectable"
+            href="https://figma.com/" target="_blank">
+              <img src="assets/img/logo_figma.png" alt="Figma" title="Figma">
+            </a>
+          </div>
+
+        </div>
+      </div>
+      <!-- End Frontend Container -->
+      
+      
   </section>
   <!-- End Skills Section -->
 
@@ -93,7 +235,6 @@
   </footer>
   <!-- End Footer -->
 
-  <script src="assets/js/jquery/jquery-3.7.0.min.js"></script>
   <script src="assets/js/functions.js"></script>
   <script src="assets/js/main.js"></script>
 </body>

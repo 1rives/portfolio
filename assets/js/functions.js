@@ -14,7 +14,6 @@ function enableMobileNavbar() {
         const target = navButton.dataset.target;
         const $target = document.getElementById(target);
 
-        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
         navButton.classList.toggle('is-active');
         $target.classList.toggle('is-active');
 
@@ -22,3 +21,16 @@ function enableMobileNavbar() {
     });
 }
 
+/**
+ * Changes the navbar background when a specified Y coordinate
+ * is reached
+ */
+function toggleNavbarBackground() {
+    var navbar = document.querySelector('.navbar');
+
+    if (window.scrollY > 350) {
+        navbar.classList.add('nav-bg');
+    } else {
+        navbar.classList.remove('nav-bg');
+    }
+}
