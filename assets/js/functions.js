@@ -1,21 +1,20 @@
-
 /**
- * Enables the mobile navbar by toggling the "is-active" class 
+ * Enables the mobile navbar by toggling the "is-active" class
  * on the navbar burger and menu elements when the burger is clicked.
  */
 function enableMobileNavbar() {
 
     const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
 
-    $navbarBurgers.forEach( navButton => {
+    $navbarBurgers.forEach(navButton => {
         navButton.addEventListener('click', () => {
 
-        // Get the target from the "data-target" attribute
-        const target = navButton.dataset.target;
-        const $target = document.getElementById(target);
+            // Get the target from the "data-target" attribute
+            const target = navButton.dataset.target;
+            const $target = document.getElementById(target);
 
-        navButton.classList.toggle('is-active');
-        $target.classList.toggle('is-active');
+            navButton.classList.toggle('is-active');
+            $target.classList.toggle('is-active');
 
         });
     });

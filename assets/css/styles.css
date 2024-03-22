@@ -5,6 +5,7 @@
 /* Broken responsiveness on mobile fix */
 body,html {
     overflow-x: hidden;
+
 }
 
 /* Reduces the excesive padding of the default footer */
@@ -163,4 +164,16 @@ html {
 #skills {
     height: 80dvh;
     color: var(--color-white) !important;
+}
+
+.skills__logo {
+    transition: 0.3s;
+}
+
+.skills__logo:hover {
+    filter: brightness(150%) saturate(0%);
+}
+
+.project__image {
+    width: 20px;
 }

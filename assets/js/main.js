@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     //window.location.href = '#hero';
 });
 
-window.addEventListener('scroll', function() {
+window.addEventListener('scroll', function () {
     toggleNavbarBackground();
 });
 
